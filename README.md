@@ -4,7 +4,7 @@
 
 The current design uses Proxmox VE to host an attacker VM and segmented defensive services: Cowrie as an SSH decoy, Splunk as the SIEM, a Python classifier, and a FastAPI-based SOAR controller. The intended event path is documented in [Architecture](docs/architecture.md).
 
-> **Current status:** The Proxmox project drive was reported corrupted, and the guest VMs are unavailable. The addresses in the network plan are proposed simulation values; they are not recovered or live-verified guest addresses. This repository currently contains documentation only.
+> **Current status:** The Proxmox project drive was reported corrupted, and the guest VMs are unavailable. This repository currently contains documentation only.
 
 ## Documentation
 
